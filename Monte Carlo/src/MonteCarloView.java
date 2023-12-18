@@ -60,13 +60,4 @@ public class MonteCarloView extends JFrame {
     public void setResult(String result) {
         resultArea.setText(result);
     }
-
-//    public static void main(String[] args) {
-//        SwingUtilities.invokeLater(new Runnable() {
-//            @Override
-//            public void run() {
-//                new MonteCarloView().setVisible(true);
-//            }
-//        });
-//    }
 }
